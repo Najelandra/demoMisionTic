@@ -77,6 +77,9 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-maven-plugin <version>2.7.3</version>-->
 				<!-- Esto se agrega para el despliegue por heroku-->
+				<configuration>
+					<skip>true</skip>
+				</configuration>
 				<executions>
 					<execution>
 						<goals>
